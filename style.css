@@ -22,19 +22,6 @@ body {
     margin: 1em;
 }
  
-@media screen and (max-width: 500px) {
-    
-    body{
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        font-size: 100%;
-    }
-    .card{
-        max-width:65vw;
-    }
-
-}
 .search {
     display: flex;
     align-items: center;
@@ -69,20 +56,52 @@ input.search-bar {
     font-size: 120%;
     width: calc(100%-100px);
 }
-
+.city{
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+.temp span{
+    font-size: 2rem;
+    margin-left: 8px;
+}
 h1.temp {
+    font-size: 3.5rem;
     margin: 0;
     margin-bottom: 10px;
 }
 .desc{
     text-transform: capitalize;
-    margin-left: 8px;
 }
 .flex{
     display: flex;
     align-items: center;
+    position: relative;
+}
+.icon{
+    position:absolute;
+    left:50%;
+    width: 180px;
 }
 .weather.loading{
    display: none;
    max-width: 20px;
 }
+@media screen and (max-width: 500px) {
+        html{
+            overflow: hidden;
+        }
+        body{
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            font-size: 95%;
+            
+        }
+        .card{
+            max-width:70vw;
+        }
+        input.search-bar{
+            max-width: 80%;
+        }
+    
+    }
