@@ -79,7 +79,8 @@ h1.temp {
 }
 .icon{
     position:absolute;
-    left:65%;
+    left:50%;
+    width:8rem;
 }
 .weather.loading{
    display: none;
@@ -97,7 +98,7 @@ h1.temp {
             
         }
         .card{
-            max-width:72vw;
+            max-width:75vw;
         }
         input.search-bar{
             max-width: 80%;
