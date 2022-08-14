@@ -80,7 +80,6 @@ h1.temp {
 .icon{
     position:absolute;
     left:50%;
-    width: 120px;
 }
 .weather.loading{
    display: none;
