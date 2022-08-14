@@ -79,7 +79,7 @@ h1.temp {
 }
 .icon{
     position:absolute;
-    left:55%;
+    right:2%;
     width:8rem;
 }
 .weather.loading{
